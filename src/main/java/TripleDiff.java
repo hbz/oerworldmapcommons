@@ -23,7 +23,6 @@ public class TripleDiff{
 
     public Line(Statement stmt, boolean add) {
       this.add = add;
-      this.remove = !add;
       this.stmt = stmt;
     }
 
